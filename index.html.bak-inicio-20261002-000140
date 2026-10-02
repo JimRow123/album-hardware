@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Álbum interactivo de hardware. Comparación de componentes internos y externos, marcas, características y precios."
+    >
+
+    <title>Hardware Lab | Álbum Interactivo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="css/styles.css?v=1790920380">
+</head>
+
+<body>
+
+    <!-- ===================================
+         BARRA DE NAVEGACIÓN
+    ==================================== -->
+
+    <header class="header" id="inicio">
+
+        <nav class="navbar container">
+
+            <a href="#inicio" class="logo">
+                <span class="logo-icon">H</span>
+
+                <div>
+                    <strong>HARDWARE</strong>
+                    <span>LAB</span>
+                </div>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Abrir menú"
+            >
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+
+                <li>
+                    <a href="#inicio">Inicio</a>
+                </li>
+
+                <li>
+                    <a href="#explorar">Componentes</a>
+                </li>
+
+                <li>
+                    <a href="#como-funciona">¿Cómo funciona?</a>
+                </li>
+
+                <li>
+                    <a href="#acerca">Acerca</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- ===================================
+             HERO / PORTADA
+        ==================================== -->
+
+        <section class="hero">
+
+            <div class="hero-decoration hero-decoration-one"></div>
+            <div class="hero-decoration hero-decoration-two"></div>
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <div class="eyebrow">
+                        ÁLBUM DIGITAL DE HARDWARE
+                    </div>
+
+                    <h1>
+                        Descubre lo que hay
+                        <span>dentro y fuera</span>
+                        de una computadora.
+                    </h1>
+
+                    <p class="hero-description">
+                        Explora, compara y conoce los principales componentes
+                        de hardware. Analizamos marcas, características,
+                        rendimiento y precios para ayudarte a comprender cuál
+                        producto sobresale en cada categoría.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#explorar" class="btn btn-primary">
+                            Explorar álbum
+                            <span>→</span>
+                        </a>
+
+                        <a href="#como-funciona" class="btn btn-secondary">
+                            ¿Cómo funciona una PC?
+                        </a>
+
+                    </div>
+
+                    <div class="hero-tags">
+
+                        <span>✓ Componentes internos</span>
+
+                        <span>✓ Periféricos</span>
+
+                        <span>✓ Comparaciones</span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- VISUAL DE COMPUTADORA -->
+
+                <div class="hero-visual">
+
+                    <div class="pc-card">
+
+                        <div class="pc-glow"></div>
+
+                        <div class="pc-case">
+
+                            <div class="case-top">
+                                HARDWARE
+                                <span>LAB</span>
+                            </div>
+
+                            <div class="case-window">
+
+                                <div class="component motherboard">
+
+                                    <span class="component-label">
+                                        MOTHERBOARD
+                                    </span>
+
+                                    <div class="cpu">
+                                        CPU
+                                    </div>
+
+                                    <div class="ram ram-one"></div>
+
+                                    <div class="ram ram-two"></div>
+
+                                    <div class="gpu">
+                                        GPU
+                                    </div>
+
+                                    <div class="fan fan-one">
+                                        <div></div>
+                                    </div>
+
+                                    <div class="fan fan-two">
+                                        <div></div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="floating-chip chip-cpu">
+                            <span>CPU</span>
+                            Procesamiento
+                        </div>
+
+                        <div class="floating-chip chip-gpu">
+                            <span>GPU</span>
+                            Gráficos
+                        </div>
+
+                        <div class="floating-chip chip-ram">
+                            <span>RAM</span>
+                            Memoria
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ===================================
+             ESTADÍSTICAS
+        ==================================== -->
+
+        <section class="stats">
+
+            <div class="container stats-grid">
+
+                <article class="stat">
+                    <strong>20</strong>
+                    <span>Categorías</span>
+                </article>
+
+                <article class="stat">
+                    <strong>40</strong>
+                    <span>Productos</span>
+                </article>
+
+                <article class="stat">
+                    <strong>20</strong>
+                    <span>Comparaciones</span>
+                </article>
+
+                <article class="stat">
+                    <strong>10+</strong>
+                    <span>Marcas</span>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ===================================
+             EXPLORADOR DE COMPONENTES
+        ==================================== -->
+
+        <section class="components-section section" id="explorar">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        01
+                    </span>
+
+                    <div>
+
+                        <span class="section-label">
+                            EXPLORA EL HARDWARE
+                        </span>
+
+                        <h2>
+                            Componentes
+                            <span>comparados</span>
+                        </h2>
+
+                        <p>
+                            Selecciona una categoría para conocer los productos,
+                            sus características principales y nuestra recomendación.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- BUSCADOR -->
+
+                <div class="search-area">
+
+                    <div class="search-box">
+
+                        <span class="search-icon">
+                            ⌕
+                        </span>
+
+                        <input
+                            type="text"
+                            id="searchInput"
+                            placeholder="Buscar procesador, RAM, monitor, teclado..."
+                        >
+
+                    </div>
+
+
+                    <div class="filters" id="filters">
+
+                        <button
+                            class="filter-btn active"
+                            data-filter="todos"
+                        >
+                            Todos
+                        </button>
+
+                        <button
+                            class="filter-btn"
+                            data-filter="interno"
+                        >
+                            Internos
+                        </button>
+
+                        <button
+                            class="filter-btn"
+                            data-filter="externo"
+                        >
+                            Externos
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- AQUÍ JAVASCRIPT CREARÁ LAS TARJETAS -->
+
+                <div
+                    class="components-grid"
+                    id="componentsGrid"
+                ></div>
+
+
+                <div
+                    class="empty-state hidden"
+                    id="emptyState"
+                >
+                    <span>⌕</span>
+
+                    <h3>No encontramos ese componente</h3>
+
+                    <p>
+                        Prueba realizando una búsqueda diferente.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ===================================
+             CÓMO FUNCIONA UNA COMPUTADORA
+        ==================================== -->
+
+        <section
+            class="how-section section"
+            id="como-funciona"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        02
+                    </span>
+
+                    <div>
+
+                        <span class="section-label">
+                            CONCEPTOS BÁSICOS
+                        </span>
+
+                        <h2>
+                            ¿Cómo funciona una
+                            <span>computadora?</span>
+                        </h2>
+
+                        <p>
+                            Todos los componentes trabajan en conjunto para
+                            recibir, procesar, almacenar y mostrar información.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="computer-diagram">
+
+                    <div class="diagram-center">
+
+                        <span>SISTEMA</span>
+
+                        <strong>
+                            COMPUTADORA
+                        </strong>
+
+                        <small>
+                            Hardware
+                        </small>
+
+                    </div>
+
+
+                    <div class="diagram-item item-cpu">
+
+                        <div class="diagram-icon">
+                            CPU
+                        </div>
+
+                        <div>
+                            <strong>Procesador</strong>
+
+                            <span>
+                                Ejecuta instrucciones
+                            </span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="diagram-item item-ram">
+
+                        <div class="diagram-icon">
+                            RAM
+                        </div>
+
+                        <div>
+                            <strong>Memoria RAM</strong>
+
+                            <span>
+                                Información temporal
+                            </span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="diagram-item item-storage">
+
+                        <div class="diagram-icon">
+                            SSD
+                        </div>
+
+                        <div>
+                            <strong>Almacenamiento</strong>
+
+                            <span>
+                                Guarda información
+                            </span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="diagram-item item-gpu">
+
+                        <div class="diagram-icon">
+                            GPU
+                        </div>
+
+                        <div>
+                            <strong>Tarjeta gráfica</strong>
+
+                            <span>
+                                Procesa imágenes
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hardware-types">
+
+                    <article class="hardware-type-card">
+
+                        <span class="type-number">
+                            01
+                        </span>
+
+                        <div class="type-icon">
+                            ◈
+                        </div>
+
+                        <h3>
+                            Hardware interno
+                        </h3>
+
+                        <p>
+                            Componentes instalados principalmente dentro del
+                            gabinete que realizan tareas fundamentales de
+                            procesamiento, almacenamiento, alimentación y
+                            comunicación.
+                        </p>
+
+                        <div class="type-examples">
+                            CPU · RAM · GPU · SSD · PSU
+                        </div>
+
+                    </article>
+
+
+                    <article class="hardware-type-card">
+
+                        <span class="type-number">
+                            02
+                        </span>
+
+                        <div class="type-icon">
+                            ◇
+                        </div>
+
+                        <h3>
+                            Hardware externo
+                        </h3>
+
+                        <p>
+                            Dispositivos conectados al equipo que permiten
+                            interactuar con la computadora, introducir
+                            información o recibir resultados.
+                        </p>
+
+                        <div class="type-examples">
+                            Monitor · Mouse · Teclado · Audio
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ===================================
+             ACERCA DEL PROYECTO
+        ==================================== -->
+
+        <section
+            class="about-section section"
+            id="acerca"
+        >
+
+            <div class="container about-grid">
+
+                <div>
+
+                    <span class="section-label">
+                        SOBRE ESTE PROYECTO
+                    </span>
+
+                    <h2>
+                        Hardware no significa simplemente
+                        <span>más potencia.</span>
+                    </h2>
+
+                </div>
+
+                <div class="about-content">
+
+                    <p>
+                        Elegir correctamente un componente requiere analizar
+                        su rendimiento, compatibilidad, consumo energético,
+                        características y precio.
+                    </p>
+
+                    <p>
+                        Este álbum presenta comparaciones entre diferentes
+                        fabricantes con el objetivo de identificar las
+                        principales ventajas de cada producto.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    
+<section class="hl-stats">
+    <div class="hl-stat">
+        <strong>20</strong>
+        <span>Categorías</span>
+    </div>
+
+    <div class="hl-stat">
+        <strong>40</strong>
+        <span>Productos analizados</span>
+    </div>
+
+    <div class="hl-stat">
+        <strong>20</strong>
+        <span>Comparativas</span>
+    </div>
+
+    <div class="hl-stat">
+        <strong>40</strong>
+        <span>Imágenes reales</span>
+    </div>
+</section>
+
+</main>
+
+
+    <!-- ===================================
+         MODAL DE COMPARACIÓN
+    ==================================== -->
+
+    <div
+        class="modal-overlay"
+        id="comparisonModal"
+    >
+
+        <div class="modal">
+
+            <button
+                class="modal-close"
+                id="modalClose"
+                aria-label="Cerrar comparación"
+            >
+                ×
+            </button>
+
+            <div id="modalContent"></div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ===================================
+         FOOTER
+    ==================================== -->
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div class="logo footer-logo">
+
+                <span class="logo-icon">H</span>
+
+                <div>
+                    <strong>HARDWARE</strong>
+                    <span>LAB</span>
+                </div>
+
+            </div>
+
+            <p>
+                Álbum interactivo de componentes de hardware.
+            </p>
+
+            <a href="#inicio">
+                ↑ Volver arriba
+            </a>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/productos.js?v=1790885202"></script>
+    <script src="js/imagenes.js?v=1790885202"></script>
+        <script src="js/comparativas-imagenes.js?v=1790916723"></script>
+<script src="js/app.js?v=1790920717"></script>
+    <script src="js/precios-gtq.js?v=1790891550"></script>
+
+
+<!-- HARDWARE LAB - INFORMACIÓN ACADÉMICA -->
+
+<div class="hl-price-disclaimer">
+    <strong>Nota sobre precios</strong>
+    <span>
+        Los valores mostrados son precios de referencia consultados
+        en octubre de 2026. Pueden variar según tienda,
+        disponibilidad, promociones, impuestos y tipo de cambio.
+    </span>
+</div>
+
+<div class="hl-project-footer">
+    <div class="hl-footer-brand">
+        <strong>HARDWARE LAB</strong>
+        <span>Álbum digital de hardware</span>
+    </div>
+
+    <div class="hl-footer-info">
+        <span>20 categorías</span>
+        <span>•</span>
+        <span>40 productos</span>
+        <span>•</span>
+        <span>Comparativas por marca</span>
+    </div>
+
+    <div class="hl-footer-date">
+        Actualizado: octubre 2026
+    </div>
+</div>
+</body>
+</html>

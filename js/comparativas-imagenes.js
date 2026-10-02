@@ -1,0 +1,22 @@
+window.imagenesComparativas = {
+    "Procesadores": "img/comparativas/01-procesadores-intel-vs-amd.png",
+    "Tarjetas Madre": "img/comparativas/02-tarjetas-madre-asus-vs-msi.png",
+    "Memoria RAM": "img/comparativas/03-memoria-ram-kingston-vs-corsair.png",
+    "SSD NVMe": "img/comparativas/04-ssd-nvme-samsung-vs-wd.png",
+    "Discos Duros HDD": "img/comparativas/05-hdd-seagate-vs-wd.png",
+    "Tarjetas Gráficas": "img/comparativas/06-gpu-nvidia-vs-amd.png",
+    "Fuentes de Poder": "img/comparativas/07-fuentes-corsair-vs-evga.png",
+    "Refrigeración CPU": "img/comparativas/08-refrigeracion-cooler-master-vs-noctua.png",
+    "Gabinetes": "img/comparativas/09-gabinetes-nzxt-vs-corsair.png",
+    "Tarjetas Wi-Fi": "img/comparativas/10-wifi-tplink-vs-asus.png",
+    "Monitores": "img/comparativas/11-monitores-samsung-vs-lg.png",
+    "Teclados": "img/comparativas/12-teclados-logitech-vs-hyperx.png",
+    "Mouse": "img/comparativas/13-mouse-logitech-vs-razer.png",
+    "Audífonos": "img/comparativas/14-audifonos-hyperx-vs-logitech.png",
+    "Bocinas": "img/comparativas/15-bocinas-logitech-vs-creative.png",
+    "Webcams": "img/comparativas/16-webcams-logitech-vs-razer.png",
+    "Micrófonos": "img/comparativas/17-microfonos-hyperx-vs-logitech.png",
+    "Impresoras": "img/comparativas/18-impresoras-hp-vs-epson.png",
+    "Almacenamiento Externo": "img/comparativas/19-almacenamiento-externo-samsung-vs-sandisk.png",
+    "UPS": "img/comparativas/20-ups-apc-vs-cyberpower.png"
+};

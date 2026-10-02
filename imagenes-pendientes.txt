@@ -1,0 +1,16 @@
+Core Ultra 7 265K | https://www.intel.com/content/www/us/en/products/sku/241063/intel-core-ultra-7-processor-265k-30m-cache-up-to-5-50-ghz/specifications.html
+B850 Gaming Plus WiFi | https://latam.msi.com/Motherboard/B850-GAMING-PLUS-WIFI/Specification
+FURY Beast DDR5 32GB | https://www.kingston.com/en/memory/search?partid=KF560C30BBEK2-32
+WD_BLACK SN850X 2TB | https://www.westerndigital.com/products/internal-drives/wd-black-sn850x-nvme-ssd
+BarraCuda 2TB | https://www.seagate.com/la/es/support/internal-hard-drives/desktop-hard-drives/barracuda-3-5/
+WD Blue 2TB | https://www.westerndigital.com/es-la/products/internal-drives/wd-blue-desktop-sata-hdd?sku=WD20EZBX
+SuperNOVA 850 GT | https://www.evga.com/products/product.aspx?pn=220-GT-0850-Y1
+Hyper 212 Halo Black | https://www.coolermaster.com/es-global/products/hyper-212-halo-black.html
+NH-U12S redux | https://www.noctua.at/en/products/nh-u12s-redux/specifications
+PCE-AXE59BT | https://www.asus.com/us/networking-iot-servers/wireless-adapters/all-series/pce-axe59bt/techspec/
+Basilisk V3 | https://www.razer.com/latam-es/gaming-mice/razer-basilisk-v3
+Kiyo Pro | https://www.razer.com/latam-es/streaming-cameras/razer-kiyo-pro
+Smart Tank 580 | https://support.hp.com/us-en/product/product-specs/hp/2100426104
+Extreme Portable SSD 2TB | https://www.sandisk.com/products/ssd/external-ssd/portable-ssd-sandisk-extreme-usb-3-2
+Back-UPS Pro BR1500MS2 | https://www.apc.com/us/en/product/BR1500MS2/
+CP1500PFCLCD | https://www.cyberpowersystems.com/product/ups/pfc-sinewave/cp1500pfclcd/
